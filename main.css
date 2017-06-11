@@ -21,9 +21,10 @@ html {
 
 h1 {
 	font-family: Cinzel, serif;
-	text-shadow: 2px 2px 8px black;
-	font-size: 2.1em;
-	color: #301f11;
+	text-shadow: 2px 2px 4px lightblue;
+	font-size: 2.2em;
+	color: black;
+	letter-spacing: .2em;
 }
 .input-container div {
 	margin-top: .5em;
