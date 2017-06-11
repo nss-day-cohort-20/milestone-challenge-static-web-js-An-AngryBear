@@ -27,18 +27,30 @@ h1 {
 	letter-spacing: .2em;
 }
 .input-container div {
-	margin-top: .5em;
+	margin-top: .3em;
 }
-label, button {
-	font-family: Philosopher;
+label {
+	font-family: Philosopher, sans-serif;
 	font-weight: bolder;
 }
 
 input {
 	margin-top: 1em;
 	border-radius: 8px;
+	transition: .7s;
+	font-weight: bolder;
+	font-size: 1em;
+	text-align: center;
 }
-button {	
+input:hover {
+	background-color: #849fc9;
+}
+
+input:focus {
+	background-color: #d0dce5
+}
+button {
+	font-family: Cinzel, serif;	
 	background-color: white;
 	font-size: 1em;
 	margin-top: 2em;
