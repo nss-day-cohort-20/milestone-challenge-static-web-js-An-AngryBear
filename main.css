@@ -26,9 +26,11 @@ h1 {
 	color: black;
 	letter-spacing: .2em;
 }
+
 .input-container div {
 	margin-top: .3em;
 }
+
 label {
 	font-family: Philosopher, sans-serif;
 	font-weight: bolder;
@@ -42,6 +44,7 @@ input {
 	font-size: 1em;
 	text-align: center;
 }
+
 input:hover {
 	background-color: #849fc9;
 }
@@ -49,8 +52,9 @@ input:hover {
 input:focus {
 	background-color: #d0dce5
 }
+
 button {
-	font-family: Cinzel, serif;	
+	font-family: Cinzel, serif;
 	background-color: white;
 	font-size: 1em;
 	margin-top: 2em;
@@ -59,6 +63,7 @@ button {
 	box-shadow: 2px 2px 20px black;
 	transition: .7s;
 }
+
 button:hover {
 	background-color: #849fc9;
 	color: white;

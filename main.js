@@ -3,7 +3,7 @@
 let tree = {
 	height: 0,
 	character: null
-};		
+};
 
 // DOM Elements
 
