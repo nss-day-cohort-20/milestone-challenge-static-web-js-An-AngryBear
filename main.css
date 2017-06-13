@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+html {
+	background: url(img/trees.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.input-container {
+	height: 300px;
+	width: 500px;
+	background: rgba(255, 255, 255, .3);
+	margin: 10% auto 10% auto;
+	box-shadow: 3px 3px 40px black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Cinzel, serif;
+	text-shadow: 2px 2px 4px lightblue;
+	font-size: 2.2em;
+	color: black;
+	letter-spacing: .2em;
+}
+
+.input-container div {
+	margin-top: .3em;
+}
+
+label {
+	font-family: Philosopher, sans-serif;
+	font-weight: bolder;
+}
+
+input {
+	margin-top: 1em;
+	border-radius: 8px;
+	transition: .7s;
+	font-weight: bolder;
+	font-size: 1em;
+	text-align: center;
+}
+
+input:hover {
+	background-color: #849fc9;
+}
+
+input:focus {
+	background-color: #d0dce5
+}
+
+button {
+	font-family: Cinzel, serif;
+	background-color: white;
+	font-size: 1em;
+	margin-top: 2em;
+	padding: .3em .5em .3em .5em;
+	border-radius: 8px;
+	box-shadow: 2px 2px 20px black;
+	transition: .7s;
+}
+
+button:hover {
+	background-color: #849fc9;
+	color: white;
+}
